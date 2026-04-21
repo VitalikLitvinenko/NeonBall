@@ -20,7 +20,7 @@ public class SawMoving : MonoBehaviour
 
         transform.position += Vector3.right * direction * moveSpeed * Time.deltaTime;
 
-        if (Vector3.Distance(transform.position, startPos) >= moveDistance)
+        if (Mathf.Abs(transform.position.x - startPos.x) >= moveDistance)
             direction *= -1f;
     }
 
