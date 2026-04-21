@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public TextMeshProUGUI coinText;
+    public TextMeshProUGUI finalCoinsText;
 
     private int coinCount = 0;
 
@@ -16,6 +17,12 @@ public class GameManager : MonoBehaviour
     public void AddCoin()
     {
         coinCount++;
-        coinText.text = "Монеты:" + coinCount;
+        coinText.text = "Coins: " + coinCount;
+    }
+
+    public void ShowVictory()
+    {
+        if (finalCoinsText != null)
+            finalCoinsText.text = "Coins Collected: " + coinCount;
     }
 }

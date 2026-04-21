@@ -6,7 +6,9 @@ public class Spike : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<BallController>().Respawn();
+            BallController ball = other.GetComponent<BallController>();
+            if (ball != null)
+                ball.Respawn();
         }
     }
 }

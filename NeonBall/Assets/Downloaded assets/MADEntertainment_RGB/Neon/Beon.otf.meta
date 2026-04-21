@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: c0de4c8dec5045d4b98064f0c036c8c5
+timeCreated: 1460027857
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames: []
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 62891
+  packageName: RGB a casual one touch game
+  packageVersion: 1.0
+  assetPath: Assets/MADEntertainment_RGB/Neon/Beon.otf
+  uploadId: 119314
